@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+:root{
+    --cor: #007267;
+    --corteste: #212c2b;
+}
+.menu-principal{
+    background-color: var(--cor);
+    width: 100%;
+    height: 110px; 
+}
+.container-1{
+    background-color: var(--cor);
+    width: 95%;
+    height: 100%;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.slot-1{
+    background-color: var(--cor);
+    width: 35%;
+    height: 100%;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+}
+.container-2 {
+    background-color: var(--cor);
+    width: 40%;
+    height: 60%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.menu{
+    background-color: var(--cor);
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid white;
+}
+.item-menu{
+    color: white;
+    margin-left: 15%;
+    font-size: 25px;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: 786px;
+    background-color: var(--corteste);
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: brightness(0.6);
+}
+.texto-principal{
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    top: 55%;
+    left: 25%;
+}
+.texto-secundario{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 70%;
+    left: 20%;
+    right: 18%;
+    text-align: justify;
+}
